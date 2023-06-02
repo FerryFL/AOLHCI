@@ -45,7 +45,7 @@ function loginDummy(event){
     login = document.getElementById("login");
     error = document.getElementById("error");
 
-    if(dummyname.value!="dummy" && dummypass.value!="12345"){
+    if(dummyname.value!="dummy" || dummypass.value!="12345"){
         error.innerHTML = "Incorrect Name/Password!";
         alert("Incorrect Name/Password!");
     }else{
