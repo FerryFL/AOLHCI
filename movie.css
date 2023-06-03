@@ -378,6 +378,18 @@ footer{
 
 
 @media (max-width: 500px){    
+    
+    header .navmovie a{
+
+        font-size: 15px;
+
+    }
+
+    header .navnews a{
+
+        font-size: 15px;
+
+    }
 
     .teks {
         left: 40px;
